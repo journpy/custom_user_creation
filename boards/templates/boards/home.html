@@ -1,0 +1,6 @@
+{% block content %}
+{% for message in all_messages %}
+<p>{{ message.date_created }}</p>
+<p>{{ message.text }}</p>
+{% endfor %}
+{% endblock content %}
